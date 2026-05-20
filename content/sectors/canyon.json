@@ -1,0 +1,12 @@
+{
+  "type": "SectorPreset",
+  "planet": "erekir",
+  "sector": 8,
+  "map": "canyon",
+  "difficulty": 1,
+  "addStartingItems": true,
+  "startWaveTimeMultiplier": 1.5,
+  "research": {
+    "parent": "aegis"
+  }
+}
