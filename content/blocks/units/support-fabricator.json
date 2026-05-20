@@ -1,0 +1,33 @@
+type: UnitFactory
+regionSuffix: "-dark"
+health: 615
+size: 3
+configurable: false
+consumes: {
+power: 3
+}
+plans: [
+  {
+    unit: sparkle
+    requirements: [
+      silicon/60
+      beryllium/75
+    ]
+    time: 600
+  }
+]
+category: units
+requirements: [
+  graphite/200
+  silicon/260
+  beryllium/320
+]
+research: {
+parent: tank-fabricator
+objectives: [
+  {
+    type: OnSector
+    preset: basin
+  }
+  ]
+}
