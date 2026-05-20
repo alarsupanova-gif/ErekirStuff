@@ -5,16 +5,17 @@ health: 750
 constructTime: 1200
 upgrades: [
   [sparkle, glimmer]
+]
 consumes: {
 power: 3.8
 items:{
   items: [
-  beryllium/80
-  silicon/70
-  tungsten/80
-]
+    beryllium/30
+  silicon/60
+  tungsten/50
+  ]
 }
-
+}
 category: units
 research: {
 parent: support-fabricator
