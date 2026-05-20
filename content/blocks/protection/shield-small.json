@@ -1,0 +1,17 @@
+{
+  "type": "ForceProjector",
+  "size": 2,
+  "health": 400,
+  "category": "defense",
+  "requirements": [
+    { "item": "beryllium", "amount": 80 },
+    { "item": "silicon", "amount": 60 }
+  ],
+  "consumes": {
+    "power": 3.5
+  },
+  "radius": 96.0,
+  "shieldHealth": 1000.0,
+  "cooldownNormal": 1.5,
+  "cooldownBrokenBase": 6.0
+}
